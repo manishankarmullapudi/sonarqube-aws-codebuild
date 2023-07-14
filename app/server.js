@@ -18,6 +18,6 @@ app.use('/api', apiRoute);
 
 if (!module.parent) {
   app.listen(port, () => console.log('App booted'));
-}
 
-module.exports = app1;
+
+module.exports = app;
